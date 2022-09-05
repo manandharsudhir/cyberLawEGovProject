@@ -1,0 +1,60 @@
+.side-nav{
+    background-color: var(--white-color);
+    width: 20%;
+    height: 100%;
+    padding: 8px;
+    position: fixed;
+}
+
+.main-body{
+    width: 80%;
+    position: relative;
+    left: 20.5%;
+    bottom: 10%;
+}
+
+.nav-item{
+    
+    padding: 16px;
+    margin-bottom: 8px;
+    background-color: var(--bg-color);
+    font-size: 16px;border-radius: 8px;
+    
+}
+.selected{
+    padding: 16px;
+    background-color: var(--primary-color);
+    font-weight: bold;   
+}
+
+.logo{
+    margin: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-body section{
+    padding: 16px;
+    margin: 16px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.section-subtitle{
+    font-weight: bold;
+    margin: 8px 0;
+}
+.section-desc{
+    font-size: 14px;
+}
+.section-content{
+    margin: 0;
+    
+}
