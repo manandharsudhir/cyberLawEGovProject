@@ -4,7 +4,6 @@ body{
     margin: 0;
 	padding:0;
     color: var(--text-color);
-
 }
 
 #content{
@@ -18,11 +17,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
     width: 100%;
+    bottom: 0;
+    position: fixed;
 }
 
 .side-nav a{
     text-decoration: none;
     color: inherit;
+}
+
+.space{
+    height: 14%;
 }

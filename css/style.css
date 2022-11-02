@@ -4,13 +4,14 @@
     height: 100%;
     padding: 8px;
     position: fixed;
+    overflow: auto;
 }
 
 .main-body{
-    width: 80%;
+    width: 79%;
     position: relative;
     left: 20.5%;
-    bottom: 10%;
+    bottom: 12vh;
 }
 
 .nav-item{
@@ -44,6 +45,7 @@
 .section-title{
     font-weight: bold;
     font-size: 20px;
+    padding: 16px 0;
 }
 
 
@@ -57,4 +59,18 @@
 .section-content{
     margin: 0;
     
+}
+
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 16px;
+}
+td{
+    width: 50%;
+}
+table{
+    table-layout: fixed;
 }
